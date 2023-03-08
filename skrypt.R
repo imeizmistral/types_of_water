@@ -10,7 +10,7 @@ woda <- read_excel("woda.xlsx")
 # wypełnienie pustych miejsc przez 0
 woda[is.na(woda)] <- 0
 
-###Grupowanie k-najbliższych sąsiadów
+###Grupowanie k-średnich
 
 # podział na 4 grupy wybranie zmiennych numerycznych
 
